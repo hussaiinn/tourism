@@ -1,0 +1,1114 @@
+nav .container1 {
+    display: flex;
+    width: 100%;
+    border: 0px solid rgba(255, 255, 255, 0.916);
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 500;
+    position: fixed;
+    background: transparent;
+
+}
+
+
+nav .nav_heads {
+    display: flex;
+    width: 80%;
+    border: 0px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: large;
+    padding: 20px 0px 50px 00px;
+    /*top right bottom left*/
+
+}
+
+
+nav .nav_heads p:nth-of-type(1) {
+    color: #FF4127;
+    text-decoration: underline #FF4127;
+}
+
+nav .nav_heads p {
+    width: 0.05%;
+}
+
+nav .logo_box {
+    background-color: #FF4127;
+    height: 100px;
+    justify-self: flex-end;
+    width: 120px;
+}
+
+nav input {
+    border-radius: 50px;
+    width: 30%;
+    border: none;
+    padding-left: 20px;
+    border: 1px solid #FF4127;
+}
+
+.container2 {
+    background-image: url('Rectangle 1.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+
+}
+
+
+.container2 h1 {
+    width: 30%;
+    font-weight: bold;
+    color: black;
+    font-size: 4em;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 150px 150px 40px 150px;
+    background-image: url('Picture1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.container3 h1 {
+    font-size: 4em;
+    font-weight: bold;
+
+}
+
+.container3 p {
+    font-size: 1.5em;
+    text-align: center;
+    width: 60%;
+}
+
+.container3 .btn-primary {
+    background-color: #FF4127;
+    border: none;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 0px;
+    margin-top: 40px;
+}
+
+.container3 .btn-primary:hover {
+    background-color: white;
+    color: #FF4127;
+    border: 1px solid #FF4127;
+
+}
+
+/*----------------------------------------terrains*------------------------------*/
+.container .terrains {
+    padding: 0px;
+}
+
+
+.terrains_outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.terrain1 {
+    background-image: url('Rectangle\ 181.jpg');
+    width: 35%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1em;
+
+}
+
+.terrain1 h1 {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.terrain2_3 {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    justify-content: space-between;
+
+}
+
+.terrain2 {
+    background-image: url('Rectangle 182.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 48%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1em;
+
+}
+
+.terrain2 h1 {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.terrain3 {
+    background-image: url('Rectangle 183.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 48%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1em;
+}
+
+.terrain3 h1 {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+
+/*----------------------------offer--------------------------*/
+.container4 {
+    margin-left: 3em;
+    margin-right: 3em;
+    background-image: url('Picture1.png');
+}
+
+.container4 p:nth-of-type(1) {
+    color: #FF4127;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.container4 p:nth-of-type(2) {
+    font-size: 2.8em;
+    font-weight: bolder;
+    color: rgb(86, 85, 85);
+}
+
+.container4 .offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.offers .offer1 {
+    width: 20%;
+}
+
+.container4 .offers .offer_head {
+    font-size: x-large;
+    color: black;
+}
+
+.container4 .offers .offer_body {
+    font-size: large;
+    color: #000;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/*-------------------------------vacation----------------------------*/
+
+
+.container5 h1 {
+    font-size: 3em;
+    color: #575555;
+    width: 50%;
+}
+
+.container5 p {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    width: 40%;
+}
+
+.container5 button {
+    background-color: #FF4127;
+    border: none;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 0px;
+    margin-top: 40px;
+}
+
+.container5 .btn-primary:hover {
+    background-color: white;
+    color: #FF4127;
+    border: 1px solid #FF4127;
+}
+
+.container5 .num_data {
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+.container5 .num {
+    color: #FF4127;
+    font-weight: bold;
+}
+
+.container5 .data {
+    font-size: large;
+    width: 82%;
+    font-weight: bold;
+}
+
+
+
+/*-------------------------------top adventures-------------------------------------*/
+.container6 .adventures {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.container6 .adventure1 {
+    width: 30%;
+    height: 500px;
+    background-image: url('Rectangle 105.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1em;
+}
+
+.adventure1 h1 {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.container6 .adventure2 {
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    justify-content: space-between;
+}
+
+.adventure2 .adv21 {
+    background-image: url('Rectangle 190.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 49%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1em;
+}
+
+.adv21 h1 {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.adventure2 .adv22 {
+    background-image: url('Rectangle 191.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 49%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1em;
+}
+
+.adv22 h1 {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.container6 .adventure3 {
+    background-image: url('Rectangle\ 189.jpg');
+    width: 30%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1em;
+}
+
+.adventure3 h1 {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+
+/*------------------------------------facilities----------------------*/
+/*.design_line{
+    display: flex;
+    flex-direction: row;
+    margin-right: 7em;
+    margin-left: 7em;
+    margin-top: 9em;
+}
+
+.line1{
+    background-color: #FF4127;
+    width: 33%;
+    height: 0.4em;
+}
+
+.line2{
+    background-color: white;
+    width: 33%;
+    border: 1px solid #FF4127;
+    height: 0.4em;
+}
+
+.line3{
+    background-color: #FF4127;
+    width: 33%;
+    height: 0.4em;
+
+}*/
+
+.container7 {
+    border: 1px solid #FF4127;
+    margin-right: 7em;
+    margin-left: 7em;
+    margin-top: 9em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: 450px;
+}
+
+.container7 .facility1 {
+    width: 33%;
+    padding: 3em 3em 2em 3em;
+}
+
+.facility1 h1 {
+    height: 40%;
+}
+
+.facility1 p {
+    width: 70%;
+    height: 40%;
+
+}
+
+.anchor {
+    color: #FF4127;
+    font-weight: bolder;
+}
+
+
+.highlight {
+    color: #FF4127;
+}
+
+.container7 .facility2 {
+    width: 33%;
+    padding: 3em 3em 2em 3em;
+    background-color: #FF4127;
+    color: white;
+}
+
+.facility2 h1 {
+    height: 40%;
+}
+
+.facility2 p {
+    width: 70%;
+    height: 40%;
+
+}
+
+.facility2 .anchor {
+    color: white;
+}
+
+.facility3 {
+    width: 33%;
+    padding: 3em 2em 2em 3em;
+}
+
+.facility3 h1 {
+    height: 40%;
+}
+
+.facility3 p {
+    width: 70%;
+    height: 40%;
+
+}
+
+
+/*-------------------------footer-----------------------*/
+footer {
+    background-color: #3D3D3D;
+    color: white;
+}
+
+footer .container8 {
+    background-color: #3D3D3D;
+    background-image: url('image 1.png');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    margin-top: 7em;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    border-bottom: gray;
+    justify-content: space-between;
+
+}
+
+.container8 .col1 {
+    color: white;
+    width: 35%;
+    padding: 3em 0em 3em 3em;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.col1 h2 {
+    height: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col1 .contact-details {
+    height: 40%;
+}
+
+.col1 .contact {
+    width: 70%;
+    line-height: 0.95em;
+}
+
+.col1 .contact p:nth-of-type(1) {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.col1 .social_media {
+
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.col2 {
+    
+    height: 100%;
+    width: 30%;
+}
+
+.col3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 3em 2em 3em 0em;
+}
+
+.col3 .btn-primary {
+    background-color: transparent;
+    border: 1px solid #FF4127;
+    color: #FF4127;
+    border-radius: 0px;
+    padding: 1em 3em 1em 3em;
+    font-size: large;
+}
+
+.col3 .btn-primary:hover {
+    background-color: #FF4127;
+    color: white;
+    border: #FF4127;
+}
+
+/*---------------------------Media Queries----------------------------*/
+@media(min-width: 0px) and (max-width: 576px){
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .container2 {
+        height: 350px;
+        padding-bottom: em;
+        margin-bottom: 0px;
+    }
+
+    .container2 h1 {
+        font-size: 1.5em;
+        width: 50%
+    }
+
+    .container3 {
+        padding-top: 5em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container3 h1 {
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container3 p {
+        width: 95%;
+        font-size: 1.2em;
+    }
+
+    .container3 .btn-primary{
+        margin-top: 1em;
+    }
+
+    .terrain2_3 {
+        width: 58%;
+    }
+
+    .terrain1 {
+        width: 40%;
+        height: 300px;
+    }
+
+    .terrain2{
+        width: 100%;
+    }
+
+    .terrain3{
+        width: 100%;
+    }
+
+    .container4 {
+        margin-left: 1em;
+        margin-right: 1em;
+
+    }
+
+    .container4 p:nth-of-type(2) {
+        font-size: 1.7em;
+    }
+
+    .container4 p:nth-of-type(1) {
+        font-size: large;
+    }
+
+    .container4 .offers {
+        margin-top: 2em;
+        flex-direction: column;
+    }
+
+    .offers .offer1{
+        width: 100%;
+    }
+
+    .container4 .offers .offer_head {
+        font-size: 1em;
+    }
+
+    .container4 .offers .offer_body {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .container5 {
+        margin-left: 1em !important;
+    }
+
+    .container5 .d-flex{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 3em;
+    }
+
+    .container5 h1 {
+        font-size: 1.6em;
+        width: 90%;
+    }
+
+    .container5 p {
+        width: 90%;
+        font-size: large;
+    }
+
+    .me-5 {
+        width: 60%;
+        height: fit-content;
+    }
+
+    .container5 .num_data {
+        width: 70%;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    .container5 .data{
+        width: 100%;
+    }
+
+    
+    .container6 .adventure1{
+        height: 300px;
+    }
+
+    .container6 .adventure3{
+        height: 300px;
+    }
+
+    .container7 {
+        flex-direction: column;
+        height: 800px;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .container7 .facility1{
+        width: 100%;
+    }
+
+    .container7 .facility2{
+        width: 100%;
+    }
+
+    .container7 .facility3{
+        width: 100%;
+        padding: 2em 2em 2em 3em;
+    }
+
+    footer .container8{
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .container8 .col1 {
+        width: 100%;
+    }
+
+    .col1 h2{
+        height: 20%;
+    }
+
+
+    .container8 .contact-details{
+        height: 60%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container8 .social_media{
+        width: 55%;
+    }
+
+    .col3{
+        width: 100%;
+        padding: 3em 2em 3em 3em;
+        align-items: flex-start;
+    }
+
+    .col3 .btn-primary{
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    .col3 img{
+        display: none;
+    }
+}
+@media (min-width:576px) and (max-width: 786px) {
+
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .container2 {
+        height: 400px;
+        padding-bottom: em;
+        margin-bottom: 0px;
+    }
+
+    .container2 h1 {
+        font-size: 2.2em;
+        width: 50%
+    }
+
+    .container3 {
+        padding-top: 5em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container3 h1 {
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container3 p {
+        width: 95%;
+    }
+
+    .terrain2_3 {
+        width: 58%;
+    }
+
+    .terrain1 {
+        width: 40%;
+        height: 350px;
+    }
+
+    .container4 {
+        margin-left: 1em;
+        margin-right: 1em;
+
+    }
+
+    .container4 p:nth-of-type(2) {
+        font-size: 2.2em;
+    }
+
+    .container4 p:nth-of-type(1) {
+        font-size: x-large;
+    }
+
+    .container4 .offers {
+        margin-top: 2em;
+
+    }
+
+    .container4 .offers .offer_head {
+        font-size: 1em;
+    }
+
+    .container4 .offers .offer_body {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .container5 h1 {
+        font-size: 2em;
+
+        width: 70%;
+    }
+
+    .container5 p {
+        width: 60%;
+        font-size: large;
+    }
+
+    .me-5 {
+        width: 40%;
+        height: fit-content;
+    }
+
+    .container5 .num_data {
+        width: 70%;
+        justify-content: space-between;
+
+    }
+
+    
+    .container6 .adventure1{
+        height: 350px;
+    }
+
+    .container6 .adventure3{
+        height: 350px;
+    }
+
+    .container7 {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .container7 .facility1{
+        width: 100%;
+    }
+
+    .container7 .facility2{
+        width: 100%;
+    }
+
+    .container7 .facility3{
+        width: 100%;
+        padding: 2em 2em 2em 3em;
+    }
+
+    .container8 .col1 {
+        width: 50%;
+    }
+
+    .col1 h2{
+        height: 20%;
+    }
+
+    .container8 .contact-details{
+        height: 60%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container8 .social_media{
+        width: 55%;
+    }
+
+    .col3 .btn-primary{
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+}
+
+@media (min-width: 786px) and (max-width: 992px){
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .container2 {
+        height: 400px;
+        padding-bottom: em;
+        margin-bottom: 0px;
+    }
+
+    .container2 h1 {
+        font-size: 2.2em;
+        width: 50%
+    }
+
+    .container3 {
+        padding-top: 5em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container3 h1 {
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container3 p {
+        width: 95%;
+    }
+
+    .terrain2_3 {
+        width: 58%;
+    }
+
+    .terrain1 {
+        width: 40%;
+        height: 400px;
+    }
+
+    .container4 {
+        margin-left: 1em;
+        margin-right: 1em;
+
+    }
+
+    .container4 p:nth-of-type(2) {
+        font-size: 2.2em;
+    }
+
+    .container4 p:nth-of-type(1) {
+        font-size: x-large;
+    }
+
+    .container4 .offers {
+        margin-top: 2em;
+
+    }
+
+    .container4 .offers .offer_head {
+        font-size: 1em;
+    }
+
+    .container4 .offers .offer_body {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .container5 h1 {
+        font-size: 2em;
+
+        width: 70%;
+    }
+
+    .container5 p {
+        width: 60%;
+        font-size: large;
+    }
+
+    .me-5 {
+        width: 40%;
+        height: fit-content;
+    }
+
+    .container5 .num_data {
+        width: 70%;
+        justify-content: space-between;
+
+    }
+
+    
+    .container6 .adventure1{
+        height: 400px;
+    }
+
+    .container6 .adventure3{
+        height: 400px;
+    }
+
+    .container7 {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .container7 .facility1{
+        width: 100%;
+    }
+
+    .container7 .facility2{
+        width: 100%;
+    }
+
+    .container7 .facility3{
+        width: 100%;
+        padding: 2em 2em 2em 3em;
+    }
+
+    .container8 .col1 {
+        width: 50%;
+    }
+
+    .col1 h2{
+        height: 20%;
+    }
+
+    .container8 .contact-details{
+        height: 60%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container8 .social_media{
+        width: 55%;
+    }
+
+    .col3 .btn-primary{
+        padding: 0.5em 1em 0.5em 1em;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .container5 h1 {
+        font-size: 3em;
+        width: 70%;
+    }
+
+    .container5 p {
+        width: 60%;
+        font-size: x-large;
+    }
+
+    .me-5 {
+        width: 40%;
+        height: fit-content;
+    }
+
+    .container5 .num_data {
+        width: 50%;
+        justify-content: space-between;
+
+    }
+
+    .container7{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .facility3{
+        padding: 3em 1em 2em 3em;
+    }
+
+    .container7 .facility2{
+        padding: 3em 3em 2em 2em;
+    }
+}
+
+@media (min-width: 1201){
+}
